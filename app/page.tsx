@@ -7,8 +7,8 @@ export default function Home() {
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <Image
           className="dark:invert"
-          src="/gnm-crop-light.png"
-          alt="Next.js logo"
+          src="https://gnmlabs.github.io/gnmlabs/gnm-crop-light.png"
+          alt="gnmlabs logo"
           width={180}
           height={38}
           priority

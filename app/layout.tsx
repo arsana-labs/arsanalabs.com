@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "G&M Labs",
+  title: "Arsana Labs",
   description:
-    "We build open-source tools and provide expert software consulting.",
+    "We build open-source products and provide expert software consulting.",
 };
 
 export default function RootLayout({

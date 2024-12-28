@@ -1,13 +1,14 @@
-## Official website of G&M Labs
+## Official website of Arsana Labs
 
-Live: https://gnmlabs.github.io/gnmlabs
+Live: https://arsana-labs.github.io/arsanalabs
 
 ## Setup guide
 
 Form and clone the repository:
 
 ```bash
-git clone https://github.com/<your-name>/gnmlabs.git
+git clone https://github.com/<your-name>/arsanalabs.git
+cd arsanalabs
 ```
 
 Install the dependencies:

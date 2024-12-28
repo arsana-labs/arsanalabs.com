@@ -16,18 +16,26 @@ export const metadata: Metadata = {
   title: "Arsana Labs",
   description:
     "We build open-source products and provide expert software consulting.",
+  metadataBase: new URL("https://arsanalabs.com"),
   openGraph: {
+    type: "website",
     title: "Arsana Labs",
     description:
       "We build open-source products and provide expert software consulting.",
+    url: "https://arsanalabs.com",
+    siteName: "Arsana Labs",
     images: [
       {
         url: "/opengraph-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Arsana Labs - Building open-source products and providing expert software consulting",
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Arsana Labs",
+    description:
+      "We build open-source products and provide expert software consulting.",
+    images: ["/opengraph-image.jpg"],
   },
 };
 

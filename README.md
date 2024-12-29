@@ -1,4 +1,4 @@
-## Official website of ArsanaLabs
+## Official website of Arsana Labs
 
 Live: [ArsanaLabs.com](https://arsanalabs.com)
 

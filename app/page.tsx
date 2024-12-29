@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Github, Folders, Calendar } from "lucide-react";
+import { Github, Calendar } from "lucide-react";
 
 export default function Home() {
   return (
@@ -7,7 +7,7 @@ export default function Home() {
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <Image
           className="dark:invert"
-          src="/logo-h-trans-croped.png"
+          src="/logo-full-trans-crop.png"
           alt="arsanalabs logo"
           width={180}
           height={38}
@@ -26,15 +26,6 @@ export default function Home() {
           >
             <Github size={20} />
             GitHub
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44 gap-2"
-            href="https://github.com/orgs/arsana-labs/repositories"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Folders size={20} />
-            View Projects
           </a>
           <a
             className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44 gap-2"

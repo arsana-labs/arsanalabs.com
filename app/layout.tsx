@@ -13,17 +13,17 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Arsana Labs",
+  title: "ArsanaLabs",
   description:
     "We build open-source products and provide expert software consulting.",
   metadataBase: new URL("https://arsanalabs.com"),
   openGraph: {
     type: "website",
-    title: "Arsana Labs",
+    title: "ArsanaLabs",
     description:
       "We build open-source products and provide expert software consulting.",
     url: "https://arsanalabs.com",
-    siteName: "Arsana Labs",
+    siteName: "ArsanaLabs",
     images: [
       {
         url: "/opengraph-image.jpg",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Arsana Labs",
+    title: "ArsanaLabs",
     description:
       "We build open-source products and provide expert software consulting.",
     images: ["/opengraph-image.jpg"],

@@ -1,6 +1,6 @@
-## Official website of Arsana Labs
+## Official website of ArsanaLabs
 
-Live: https://arsana-labs.github.io/arsanalabs
+Live: [ArsanaLabs.com](https://arsanalabs.com)
 
 ## Setup guide
 

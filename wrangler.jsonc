@@ -4,7 +4,7 @@
  */
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "arsanalabs.com",
+  "name": "arsanalabsdotcom",
   "main": ".open-next/worker.js",
   "compatibility_date": "2024-09-26",
   "compatibility_flags": ["nodejs_compat"],
@@ -16,6 +16,12 @@
   "observability": {
     "enabled": true,
   },
+  "kv_namespaces": [
+    {
+      "binding": "NEXT_CACHE_WORKERS_KV",
+      "id": "a82e54c23b494a638effa40652332a52",
+    },
+  ],
   /**
    * Smart Placement
    * Docs: https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
